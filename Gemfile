@@ -5,6 +5,12 @@ ruby '2.7.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.2'
+	
+gem 'rest-client'
+#webmock testa a resposta do nosso app em relacao a API chamada. Chamadas fake. Nao cabe a nos
+#testar a API alheia.
+gem 'webmock'
+
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
